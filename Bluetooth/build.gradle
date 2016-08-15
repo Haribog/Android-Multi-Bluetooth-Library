@@ -14,3 +14,14 @@ allprojects {
         mavenCentral()
     }
 }
+
+repositories {
+    maven {
+        url "http://sfdn.ddns.net/maven2/"
+    }
+    mavenCentral()
+}
+
+dependencies {
+    compile 'com.ramimartin.multibluetooth:AndroidMultiBluetoothLibrary:1.2-SNAPSHOT'
+}
